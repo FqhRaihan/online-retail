@@ -2,7 +2,7 @@ CREATE table customer(
 	id INT(10) PRIMARY KEY NOT NULL auto_increment,
 	name VARCHAR(60) NOT NULL,
 	email VARCHAR(30)NOT NULL,
-	phone VARCHAR (13) NOT NULL,
+	phone INT(13) NOT NULL,
 	address VARCHAR(75) NOT NULL
 );
 

@@ -1,14 +1,14 @@
 INSERT INTO customer (name,email,phone,address) VALUES
-('Agus prasetyo','agus@gmail.com','089122456457','pasir mas'),
-('Alexios','xios@gmail.com','084465789320','mranggen'),
-('Dimas kijang','dimasK@gmail.com','089935678433','Pandansari'),
-('Prayotno','prayotno@gmail.com','089877654432','petek'),
-('Xavier cahyo','cahyo@gmail.com','087999223400','pandanaran'),
-('Ijul nabawi','ijulnaba@gmail.com','082333589039','pleburan'),
-('soegeng','soegeng@gmail.com','083365653799','citarum'),
-('Adit kasmiri','adit@gmail.com','087754993876','beton mas'),
-('cayamasmita','caya@gmail.com','083300895032','pamularsih'),
-('Aang komara','komaraaagn@gmail.com','082544930202','sampokong');
+('Agus prasetyo','agus@gmail.com',089122456457,'pasir mas'),
+('Alexios','xios@gmail.com', 084465789320 ,'mranggen'),
+('Dimas kijang','dimasK@gmail.com', 089935678433,'Pandansari'),
+('Prayotno','prayotno@gmail.com', 089877654432 ,'petek'),
+('Xavier cahyo','cahyo@gmail.com', 087999223400,'pandanaran'),
+('Ijul nabawi','ijulnaba@gmail.com', 082333589039 ,'pleburan'),
+('soegeng','soegeng@gmail.com', 083365653799 ,'citarum'),
+('Adit kasmiri','adit@gmail.com', 087754993876 ,'beton mas'),
+('cayamasmita','caya@gmail.com', 083300895032 ,'pamularsih'),
+('Aang komara','komaraaagn@gmail.com', 082544930202 ,'sampokong');
 
 INSERT INTO category(type) VALUES
 ('vegetables'),
@@ -16,16 +16,16 @@ INSERT INTO category(type) VALUES
 ('Snack');
 
 INSERT INTO product (name,price,category_id) VALUES
-('Kangkung','5000',1),
-('Adidas Samba','500000',2),
-('Nike Air Max','850000',2),
-('Oreo Coklat','10000',3),
-('Tomat','11000',1),
-('Cabe','15000',1),
-('Chitatos','20000',3),
-('Converse Chunk taylor','400000',2),
-('Sari Roti','5000',3),
-('pakcoy','5000',1);
+('Kangkung', 5000 ,1),
+('Adidas Samba', 500000 ,2),
+('Nike Air Max', 850000 ,2),
+('Oreo Coklat', 10000 ,3),
+('Tomat', 11000 ,1),
+('Cabe', 15000 ,1),
+('Chitatos', 20000 ,3),
+('Converse Chunk taylor',400000,2),
+('Sari Roti',5000,3),
+('pakcoy', 5000 ,1);
 
 INSERT ORDER(customer_id,product_id,price,quantity) VALUES
 
